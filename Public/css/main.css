@@ -2,6 +2,9 @@
 	padding: 0;
 	margin: 0;
 	font-family: 'Ubuntu Condensed', sans-serif;
+	-moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
 }
 /*HOMBRES*/
 .gallery-container{
