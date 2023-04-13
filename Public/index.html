@@ -9,6 +9,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/bed6848351.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	<!--ROPA HOMBRES-->
@@ -80,6 +81,54 @@
 			<h2 class="gallery-title">Invierno 2023</h2>
 		</div>	
 	</div>
+	<nav class="forms-container">
+        <h2 class="contacto">Contacto</h2><br>
+        <form action="enviar.php" method="post" enctype="text/plain">
+            <label for="nombre1">Nombre</label>
+            <input class="input" type="text" name="nombre1" id="nombre1" required placeholder="Su Nombre"><br>
+            <label for="apellido1">Apellido</label>
+            <input class="input" type="text" name="apellido1" id="apellido1" required placeholder="Su apellido"><br>
+            <label for="email1">Correo Electronico</label>
+            <input class="input" type="email" name="email1" id="email1" required placeholder="ejemplo@ejemplo.com"><br>
+            <label for="tel1">Telefono</label>
+            <input class="input" type="tel" name="tel1" id="tel1" required placeholder="Su Telefono"><br>
+            <label>Mensaje</label><br>
+            <textarea cols="30" rows="5" required placeholder="Consultas generales"></textarea><br>
+            <h4 class="sexo">Sexo:</h4>
+            <select id="country" name="country">
+                <option value="hombre">Hombre</option>
+                <option value="mujer">Mujer</option>
+                <option value="no-binario">No binario</option>
+            </select>
+            <br>
+                <input class="boton" type="submit" value="Enviar">
+                <input class="boton" type="reset" value="Borrar">
+                <input class="boton" type="button" value="Nada">
+        </form>
+    </nav>
+        <!--Fin Formulario-->
+        <!--Inicio Footer-->
+    <footer class="pie-pagina">
+        <div class="container">
+            <div class="logo">
+                <h1>F I N E S T</h1>
+            </div>
+            <div class="footer-categorias">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+            <div class="footer-redes-sociales">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+        <!--Fin Footer-->
 </body>
 </html>
 
