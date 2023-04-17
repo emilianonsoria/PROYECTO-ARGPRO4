@@ -270,6 +270,21 @@ header{
 	.logo-header{
 		padding-bottom: 10px;
 	}
+	.gallery-title1{
+		position: absolute;
+		bottom: 0;
+		top: 0;
+		display:flex;
+    	justify-content: center;
+    	align-items: center;
+	}
+	.gallery-title12{
+		position: absolute;
+		bottom: 0;
+		display:flex;
+    	justify-content: center;
+    	align-items: center;
+	}
 
 }
 /*BANNER*/
